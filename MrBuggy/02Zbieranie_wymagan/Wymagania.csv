@@ -1,0 +1,35 @@
+ID, Str,Wymaganie w oparciu o specyfikację
+R1,10,Pole “Czas” - wyświetla czas do zakończenia rundy (format: gg:mm:ss)
+R2,7,Windows 7 lub 8
+R3,10,Aplikacja musi być w języku polskim
+R4,11,Okno aplikacji powinno mieścić się w całości na ekranie monitora o rozdzielczości 1024x768
+R5,12,"login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny"
+R6,12,"hasło musi składać się z co najmniej 8 znaków i zawierać przynajmniej jedną
+małą literę, jedną wielką literę, jedną cyfrę, jeden znak specjalny"
+R7,13,przełączanie pomiędzy zadaniami nie może być dłuższe niż 1 sekunda
+R8,13,hasło nie może zawierać białych znaków ani polskich znaków dialektycznych
+R9,10,Pole “Nr zadania” - podaje numer zadania wyświetlonego w oknie “Zadania”
+R10,13,konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła
+R11,10,Pole “Opis zadania” - zawiera ogólną informację na temat zadania wyświetlonego w polu “Zadania” wraz z ilością punktów za dane zadanie
+R12,10,Pole “Lista zadań” - umożliwia nawigację pomiędzy zadaniami
+R13,10,"""Lista zadań"" Zadania bez udzielonej odpowiedzi, z udzieloną odpowiedzią i aktualnie wyświetlone
+muszą się odznaczać innym kolorem."
+R14,10,Przyciski nawigacyjne - “Następne” i “Poprzednie” umożliwiają przeniesienie się do odpowiednio następnego i poprzedniego zadania
+R15,10,Przycisk “Zaraportuj defekt” - pozwala na zaraportowanie defektu aktualnie wyświetlanego w oknie “Zadania”.
+R16,10,Przycisk “Zaraportuj defekt” -Każdorazowo po kliknięciu tego przycisku tworzona jest kopia zapasowa z aktualnym stanem aplikacji
+R17,10,Przycisk “Zaraportuj defekt” -wysyłany jest raport defektu do części serwerowej aplikacji.
+R18,10,Przycisk “Zaraportuj defekt” -Funkcja ta jest dostępna dla kapitana (tryb drużynowy) i dla zawodnika indywidualnego.
+R19,13,Nie jest wymagany instalator aplikacji. MrBuggy 3 ma być aplikacją przenośną
+R20,14,Defekty w aplikacji są oceniane według kryterium ważności i dzielą się na 3 klasy:  defekty trywialne (od 1 do 2 pkt)  defekty normalne (od 3 do 4 pkt)  defekty krytyczne (od 5 do 6 pkt)
+R21,12,Wielkość pliku z kopią zapasową aplikacji 2MB
+R22,14,"Dodatkowo aplikacja przypisuje:  -2 punkty za zgłoszenie defektu, który jest poprawnie działającą funkcjonalnością"
+R23,14, 0 punktów za nie zgłoszenie defektu zadaniu.
+R24,8,W aplikacji dostępnych ma być nie mniej niż 15 zadań (problemów)
+R25,9,Kolejność zadań wyświetlanych w części klienckiej powinna być losowa.
+R26,12,raport zbiorczy ma się generować nie dłużej niż 15 sekund
+R27,12,aplikacja kliencka po uruchomieniu nie może zajmować więcej niż 100MB pamięci operacyjnej komputera
+R28,"7, 8","Dane z części klienckiej dostarczane są do części serwerowej w postaci pliku tekstowego w przypadku działającego połączenia sieciowego - bezpośrednio z aplikacji
+klienckiej,        "
+R29,"7,8","W przypadku braku połączenia sieciowego - za pomocą funkcji eksportu
+z części klienckiej i importu w części serwerowej."
+R30,9,W przypadku utraty połączenia sieciowego użytkownik powinien mieć dalszą możliwość wykonywania wszystkich czynności w aplikacji.
