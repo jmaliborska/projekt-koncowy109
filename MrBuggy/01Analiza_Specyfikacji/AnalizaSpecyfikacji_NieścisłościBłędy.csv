@@ -1,0 +1,39 @@
+LP,"Miejsce w specyfikacji, gdzie jest błąd/nieścisłość",Co jest błędem,Ustalone rozwiązanie
+1,"Strona 11, Rysunek, guzik: znalazłem defekt",użycie formy męskiej,“Zaraportuj defekt”
+2,Strona 6 pkt 3 ,"Wymagane cztery wersje aplikacji, opisane 3",3
+3,"Strona 10/11“Zaraportuj defekt” a w schemacie pojawia się napis"" znalazłem defekt""",Nieścisłość w nazewnictwie,“Zaraportuj defekt”
+4,"Strona 10/11 Rysunek, guzik: ""opis problemu""","Błędna treść ""opis zadania""","""opis zadania"""
+5,"strona 14 - ocena kryteriów (4 pkt w dwóch kryteriach)
+",, defekty krytyczne (od 5 do 6 pkt)
+6,"Strona 10 Pole “Czas” - wyświetla czas do zakończenia rundy (format: gg:mm:ss;
+godzina, minuta, sekunda, milisekunda).
+",nie ma milisekundy.,gg:mm:ss
+7,"Strona 11 Aplikacja serwerowa ma zostać stworzona przy
+wykorzystaniu języka Java7",W pkt 4 na stronie 7 określona dowolność języka,dowolny język
+8,"Strona 12 login musi składać się z 2 do 8 znaków i zawierać przynajmniej jedną małą 
+literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny",Błędna logika zdania , login musi składać się z 4 do 8 znaków (...)
+9,"Strona nr. 12 ""hasło musi składać się z co najmniej 20 znaków""",Duża ilość znaków w haśle na jednorazowe zawody,hasło - 8 znaków
+10,Strona 6 W aplikacji powinno znajdować się jedno zadanie testowe,Strona 14 opisane dwa zadania,dwa zadania
+11,Przycisk „Status połączenia” ,nie ma informacji.,
+12,Strona 12 wielkość pliku z kopią zapasową aplikacji,2MB1,2MB
+13,"Strona 13 konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła lub
+jego części",Blokada po części hasła? Możliwy błąd logiczny,konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła
+14,Strona 14 nazewnictwo defektów,trywialny,bez zmian
+15, Tokeny do konta mają być generowane losowo 7.2 strona 13,"Gdzie będą generowane tokeny, dla kogo i w jakim celu.",
+16,St. 13 Punkt 7.3 Wymagania niezawodności,Nietestowalne wymaganie,
+17,Strona 5 instalator aplikacji,Strona 13 aplikacja nie wymaga instalacji,brak instalatora
+18,Strona 10 pkt 6.1 Pole “Nr zadania” - podaje numer zadania wyświetlonego w oknie “Zadania”.,Brak dalszej informacji o numeracji,
+19,Strona 6/7 Wersja publiczna udostępniona po konkursie,Nie ma wyznaczonego terminu,3 tyg
+20,Strona 14. zgodnie z zawartym harmonogramem prac,brak harmonogramu prac,
+21,St.8 Piewsza kropka,Brak kontynuacji w dalszej części,
+22,"Str 10/11 Lista zadań, ułożenie guzików 1-12","nie uwzględnione 3 zadań (13-15), lista zadań zabiera za dużo miejsca w aplikacji, zmiana np. na listę rozwijalną",lista scrollowana
+23,"Str 10 Lista zadań, oznaczenie kolorystyczne",niedoprecyzowanie,zielony dla zrobionego
+24,Strona 12 wzór na wydajność aplikacji,wyjaśnienie wzoru,
+25,"Strona nr.12 "" aplikacja serwerowa musi być w stanie przyjąć w jednym momencie do 50
+raportów użytkowników"" ",Co oznacza w jednym momencie? Co dzieje się w chwili kiedy serwer przyjmuje w jednym momencie więcej niż 50 raportów?,"0,001 sekundy"
+26,Czy po stronie klienckiej coś będzie się działo po czasie przeznaczonym na rozwiązanie zadań?,,
+27,"Strona 11 Niemniej jednak wszystkie funkcje aplikacji muszą być
+dostępne dla użytkowników",Wyjaśnienie jaka część i jacy użytkownicy,dla użytkowników wersji serwerowej
+28,"Strona 11 Okno aplikacji powinno mieścić się w całości na ekranie monitora o rozdzielczości 1024x768 i być estetyczne.
+",czy widok będzie skalowanych do innych rozdzielczości ? ,okno ma stały rozmiar- mieści się na ekranie 1024x768
+29,"Str. 8,10 Raportowanie defektów ",Tryb członka drużyny sprzeczność,Raportowanie defektów - tylko kapitan (w trybie drużyny)
