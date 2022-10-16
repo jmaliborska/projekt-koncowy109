@@ -1,0 +1,37 @@
+ID,Id wymagania,Tytuł,Warunki wstępne,Opis kroków,Oczekiwany rezultat
+1,R1,Sprawdzenie poprawności wyświetlania pola „Czas”,Uruchamianie aplikacji,"1.	Logowanie do aplikacji.
+2.	Sprawdzamy format wyświetlenia pola „Czas” po prawej stronie okna aplikacji.",Pole “Czas” wyświetla się w formacie gg:mm:ss
+2,R2,Sprawdzenie czy Mr.Buggry 3 działa na Windows 7 i 8,"Posiadanie komputera/laptopa, posiadanie łącza internetowego, ","1. Wejdz na virtualBox
+2. Ustaw VirtualBoxa na sytem operacyjny Windows 7
+3. Otwórz aplikację MrBuggy 3 
+3. Aplikacja wyświetla się poprawnie.
+4. Ustaw VirtualBoxa na sytem operacyjny Windows 8
+5. Ponownie otwieram aplikację MrBuggy 3 
+6. Obie wersje Windowsa działają w testowanej przez nas aplikacji. (happy path)","Oczekiwany rezultat:
+Aplikacja działa poprawnie na Windowsie 7 i 8.
+Warunek wyjściowy: Zainstalowanie aplikacji, posiadanie Windowsa 7 lub 8
+ Acer Predator i7 (tu powinnam wpisać dokładny model laptopa) , przeglądarka chrome wersja Wersja 106.0.5249.119 "
+3,R3,"Sprawdzenie, czy aplikacja jest w języku polskim",aplikacja tylko w języku polskim,1. Uruchom alikację,Aplikacja będzie w języku polskim bez możliwości wyboru innego języka.
+,,,,2. Wpisz Login,
+,,,,3. Wpisz Hasło,
+,,,,4. Zaloguj się,
+4,R5,"login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny",uruchomienie aplikacji,"1. Kliknij przycisk ""zaloguj""",Pojawił się formularz logowania 
+,,,,2. Wpisz w okienku login:  Ko7@,Login jest poprawny 
+5,R6,Poprawne wpisanie hasła użytkownika do aplikacji Mr. Buggy3,utruchomienie aplikacji,1.Wpisz login utworzonego użytkownika: JanK1#," Utworzenie konta, prawidłowe hasło"
+,,,,"2.Utwórz hasło dla użytkownika. Hasło musi składać się z co najmniej 8 znaków i zawierać przynajmniej jedną
+małą literę, jedną wielką literę, jedną cyfrę, jeden znak specjalny",
+,,,,"3.Kliknij przycisk ""Utwórz konto""",
+,,,,4.Aplikacja wyświetla komunikat o prawidowym utworzeniu konta użytkownika JanK1#,
+6,R8,Checking the password field by entering the Polish dialectical character,"Starting the application Mr. Buggy 3 - logging level, user has an account",1. enter a valid username in the login field 2. Enter a word containing a Polish dialectical character in the password field,"The following message will be displayed, ""The field password cannot be empty, it must contain ... .."""
+7,R8,Checking the password field by typing a whitespace character that is not allowed,"Starting the application Mr. Buggy 3 - logging level, user has an account",1. enter a valid username in the login field 2. Enter a password containing spaces,"The following message will be displayed, ""The field password cannot be empty, it must contain ... .."""
+8,R10,logowanie z podaniem błędnego hasła,"Użytkownik posiada konto użytkownika, znajduje się na stronie logowania do aplikacji",1. W polu login wpisz prawidłowy login,
+,,,,2. W polu hasło trzykrotnie wpisz błędne hasło ,
+,,,,3. Kliknij przycisk „zaloguj się”,"Wyświetla się komunikat, że podane hasło jest nieprawidłowe i po trzykrotnym wpisaniu błędnego hasła, konto zostaje zablokowane"
+9,R15,Przycisk “Zaraportuj defekt” - pozwala na zaraportowanie defektu aktualnie wyświetlanego w oknie “Zadania”.,"1. Włącz aplikacje
+2. Zaloguj się na konto użytkownika","1. Wybierz zadanie z listy zadań
+2. Wybierz przycisk ""zaraportuj defekt""",Aktualnie wyświetlony defekt został zaraportowany
+10,R16,"Przycisk ""zaraportuj defekt"" po kliknięciu tworzy plik kopii zapasowej ze stanem aplikacji","Otwórz aplikację, zaloguj się z poprawnymi danymi logowania","1. Kliknij przycisk ""Zaraportuj defekt""","Po kliknięciu przycisku ""zaraportuj defekt"" plik kopii zapasowej zostaje utworzony"
+11,R16,Restart aplikacji przywraca stan aplikacji z kopii zapasowej,"Otwórz aplikację, zaloguj się z poprawnymi danymi logowania","1. Kliknij przycisk ""Zaraportuj defekt""",Po ponownym uruchomieniu aplikacji stan aplikacji jest przywrócony z zapiasanego pliku
+,,,,2. Zamknij aplikację,
+,,,,3. Otwórz aplikację ponownie,
+12,R18,Przycisk “Zaraportuj defekt” -Funkcja ta jest dostępna dla kapitana (tryb drużynowy) i dla zawodnika indywidualnego.,uruchomienie aplikacji,Wejdź w wersję aplikacji dla członka drużyny.,"W wersji dla członka drużyny przycisk ""Zaraportuj defekt"" jest nieaktywny."
